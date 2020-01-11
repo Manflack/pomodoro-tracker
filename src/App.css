@@ -1,0 +1,12 @@
+.App {
+  margin: auto;
+  margin-top: 3%;
+  text-align: center;
+  width: 80%;
+  //border: 1px solid gray;
+}
+
+.Tittle {
+  font-family:'Varela Round';
+  font-size: 300%;
+}

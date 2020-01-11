@@ -1,0 +1,30 @@
+.InputArea {
+  border: 1px solid gray;
+  border-radius: 20px;
+  padding: 13px;
+  outline: none;
+}
+
+.AreaTarjeta {
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Varela Round'
+}
+
+.Timer {
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 30%;
+  margin: auto;
+}
+
+.Inline {
+  display: inline-block;
+}
+
+.Border {
+  border: 1px solid gray;
+  border-radius: 5px;
+}
