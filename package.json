@@ -1,20 +1,21 @@
 {
-  "name": "my-app",
+  "name": "pomodoro-tracker",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
     "font-awesome": "^4.7.0",
+    "npm-run-all": "^4.1.5",
     "react": "^16.9.0",
     "react-countdown-now": "^2.1.1",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.0.1"
+    "react-scripts": "^3.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "runReactApp": "npm start",
+    "server": "node src/backend/rest/TaskServiceImpl.js",
+    "dev": "npm-run-all --parallel start runReactApp server"
   },
   "eslintConfig": {
     "extends": "react-app"
